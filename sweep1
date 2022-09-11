@@ -3,7 +3,7 @@ import os
 sweep = 0
 mistakes = 0
 goal = 1000
-print("Start sweeping! Type 'sweep'")
+print('Start sweeping! Type "sweep" :)')
 while sweep < goal:
   my_input = input()
   if my_input == "sweep":
