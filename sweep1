@@ -1,0 +1,18 @@
+import os
+
+sweep = 0
+mistakes = 0
+goal = 1000
+print("Start sweeping! Type 'sweep'")
+while sweep < goal:
+  my_input = input()
+  if my_input == "sweep":
+    os.system("clear")
+    sweep += 1
+  else:
+    mistakes += 1
+    sweep -= mistakes
+  os.system("clear")
+  print(str(sweep) + "/" + str(goal))
+  print("mistakes:", mistakes)
+print("YoU DiD iT!")
